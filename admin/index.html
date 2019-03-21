@@ -1,0 +1,57 @@
+<html lang="pt-BR">
+	<head>
+		<meta charset="utf-8">
+		<title>Apollo Music</title>
+
+		<!-- Para inserir o icone -->
+		<link rel="icon" href="../estilos/logo.png"/>
+
+		<!-- Fontes -->
+		<link href="https://fonts.googleapis.com/css?family=Farsan|Lato:400,700" rel="stylesheet">
+		<!-- Custom CSS -->
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	</head>
+	<body>
+		<div class="agrupador">
+			<nav id="navbar">
+				<ul class="menu">
+					<center>
+						<li><a href="slides/seleciona.php" target="area">Slides</a>
+							<ul>
+								<li><a href="slides/formCad.php" target="area" class= "transition">Registrar</a></li>
+								<li><a href="slides/formDel.php" target="area" class="transition">Apagar</a></li>
+							</ul>
+						</li>	
+						<li><a href="tophits/seleciona.php" target="area">Top Hits</a>
+							<ul>
+								<li><a href="tophits/formCad.php" target="area" class="transition">Registrar</a></li>
+								<li><a href="tophits/formDel.php" target="area" class="transition">Apagar</a></li>
+							</ul>
+						</li>
+						<li><a href="comentario/seleciona.php" target="area">Coment&aacute;rios</a>
+							<ul>
+								<li><a href="comentario/formDel.php"	target="area" class="transition">Aprovados</a></li>
+								<li><a href="comentario/formAprova.php" target="area" class="transition">N&atilde;o Aprovados</a></li>
+							</ul>
+						</li>	
+						<li><a href="noticia/seleciona.php" target="area">Not&iacute;cias</a>
+							<ul>
+								<li><a href="noticia/formCad.php" 	 target="area" class="transition">Registrar</a></li>
+								<li><a href="noticia/formDel.php"    target="area" class="transition">Aprovados</a></li>
+								<li><a href="noticia/formAprova.php" target="area" class="transition">N&atilde;o Aprovados</a></li>
+							</ul>
+						</li>
+						<li><a href="player.html" target="area" class="transition">Player</a></li>
+
+						<li><a href="#" onclick="window.close() ">Fechar</a></li>
+					</center>			
+				</ul>
+			</nav>
+			
+
+			<div id="conteudo" class="w-full">
+				<iframe name="area" style="height: 115%;width: 100%;border:none; background-color: #555; border-radius: 20px;"></iframe>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,17 @@
+#play
+{
+	height:76px;
+	width:100%;
+	position:fixed;
+	Z-index:999;
+	border:transparent;
+	background-color:black;
+}
+
+
+#music
+{
+	width:99%;
+	height:64px;
+	border:transparent;
+}

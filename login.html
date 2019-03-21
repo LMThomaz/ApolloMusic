@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="iso-8859-1">
+	<title>Apolo Music</title>
+	<!-- Fontes -->
+	<link href="https://fonts.googleapis.com/css?family=Farsan|Lato:400,700" rel="stylesheet">
+	<!-- Custom CSS -->
+	<link rel="stylesheet" type="text/css" href="estilos/css/Sobre.css">
+	<style type="text/css" media="screen">
+		*{
+			color: white;
+		}
+		input{
+			background-color: #777;
+		}
+	</style>
+</head>
+<body>
+	<div class="agrupador">
+		<div id="conteudo">
+			<div id="form">
+				<br/>
+				<div id="group">
+					<form action="admin/login.php" target="_blank" method="POST" accept-charset="iso-8859-1" autocomplete="off">
+							<label for="nome">Login</label>
+							<input type="text" name="nome" placeholder="Login do Administrador" class="campo-texto" maxlength="4" required>
+							<label for="email">Senha</label>
+							<input type="password" name="senha"  placeholder="Senha do Administrador" class="campo-texto" maxlength="10" required>
+							<input type="submit" value="Logar" class="btn transition">
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

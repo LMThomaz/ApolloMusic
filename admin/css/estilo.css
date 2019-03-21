@@ -1,0 +1,256 @@
+html {
+  font-family: "Lato", "sans-serif";
+}
+html h1 {
+  font-family: "Farsan", "sans-serif";
+
+}
+
+body {
+  background-image: url("fundo3.jpg");
+}
+
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+}
+
+hr {
+  margin: 8px 0px;
+  width: 100%;
+  opacity: 0.4;
+}
+
+.f-left {
+  float: left;
+}
+
+.f-right {
+  float: right;
+}
+
+.half {
+  width: 50%;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.test {
+  background-color: #808080;
+}
+
+.transition {
+  transition: all 0.5s;
+}
+
+.pdd {
+  padding: 10px;
+}
+
+.agrupador {
+  width: 1000px;
+  height: 890px;
+  margin: 0 auto;
+}
+
+#header {
+  height: 130px;
+  background-color: transparent;
+}
+#header #hd-logo {
+  width: 25%;
+  top: 50%;
+  left: 50%;
+  margin: -46px 0px 0px -136px;
+  box-shadow: 0px 0px 8px black;
+}
+
+#moldura{
+  width:600px;
+  height:450px;
+  background-color:#eeeeee;
+  transition: background-image 1s;
+}
+
+#navbar {
+  height: 50px;
+  background-color: transparent;
+  border-radius: 200px;
+  margin-top: 45px;
+}
+
+#navbar #links a {
+  font-size: 20px;
+}
+#navbar #links a:hover {
+  text-shadow: 0px 2px 8px #000000;
+  transition: 1s;
+}
+
+#conteudo #news .noticia:hover {
+  text-shadow: 0px 3px 8px #000000;
+  cursor: pointer;
+  color: white;
+  background-color: #00A6FF;
+  font-weight: bold;
+  font-size: 17px;
+  border-radius: 18px;
+  font-weight: bold;
+  transition: 1s;
+}
+
+#conteudo {
+  height: 700px; 
+  margin-top: 10px;
+  weight: 200px;
+}
+#conteudo #news {
+  width: 300px;
+}
+#conteudo #news .noticia {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  padding: 30px;
+  text-align: left;
+  margin: 15px 0px 10px 0px;
+}
+
+#conteudo #publicidade {
+  width: 680px;
+  height: 200px;
+  margin-left: 10px;
+  background-color: #000000;
+}
+#conteudo #publicidade h1 {
+  width: 150px;
+  top: 50%;
+  left: 50%;
+  margin-top: -22.5px;
+  margin-left: -75px;
+}
+#conteudo #form {
+  width: 700px;
+  height: 393px;
+  margin-top: 7px;
+}
+#conteudo #form h1 {
+  margin-top: -10px;
+}
+#conteudo #form #group {
+  width: 100%;
+  height: 340px;
+}
+#conteudo #form #group form label, #conteudo #form #group form textarea, #conteudo #form #group form .campo-texto {
+  display: block;
+  font-family: "Lato", "sans-serif";
+  margin-bottom: 5px;
+}
+#conteudo #form #group form input:focus, #conteudo #form #group form textarea:focus {
+  outline: none;
+}
+#conteudo #form #group form label {
+  color: #FFFFFF;
+}
+#conteudo #form #group form .campo-texto {
+  width: 500px;
+  height: 25px;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  font-weight: bold;
+}
+#conteudo #form #group form textarea {
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+}
+#conteudo #form #group form .btn {
+  width: 80px;
+  height: 30px;
+  border: none;
+  font-weight: bold;
+  font-family: "Farsan", "sans-serif";
+  font-size: 20px;
+  background-color: #1E90FF;
+  border-radius: 20px;
+  margin-top: 6px;
+}
+#conteudo #form #group form .btn:hover {
+  cursor: pointer;
+  color: white;
+  background-color: black;
+}
+#conteudo #form #group form > * {
+  color: #000000;
+}
+#footer {
+  height: 100px;
+  background-color: #00688B;
+}
+#footer p {
+  margin: 40px auto;
+  left: 50%;
+  margin-left: -176.695px;
+}
+ul{
+  display: block;
+  margin: 0;
+  width: 900px;
+  padding: 0;
+}
+
+ul li{
+  float: left;
+  display: block;
+  position: relative; 
+  width: 150px;
+}
+
+ul li a{
+  padding: 5px;
+  display: block;
+  text-decoration:none;
+  background-color: #444;
+  color: #fff;
+  border-bottom: 1px solid #ccc;
+}
+ul li a:hover{
+  background-color: #777;
+  font-size: 20px;
+  transition: 0.7s;
+}
+
+ul li ul{
+  display: none;
+  position: absolute;
+  width: 130px;
+}
+
+ul li ul li{
+  float: none;
+}
+
+ul li:hover ul{
+  display: block;
+}

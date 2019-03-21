@@ -1,0 +1,6 @@
+#moldura{
+	width: 600px;
+	height: 450px;
+	background-color: #eeeeee;
+	transition: background-image 2s;
+}
